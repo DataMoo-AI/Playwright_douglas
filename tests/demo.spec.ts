@@ -2,7 +2,6 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Douglas.de Tests', () => {
     
-    // Navigate to the URL 
     test('navigate to url',async ({ page }) => {
 
         test.setTimeout(60000);
