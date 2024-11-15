@@ -14,6 +14,7 @@ test.describe('Douglas.de Tests', () => {
 
     });
 
+    
     test('Allow cookies on Douglas.de', async ({ page }) => {
          test.setTimeout(70000);
         // Navigate to the URL
